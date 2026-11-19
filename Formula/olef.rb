@@ -5,21 +5,21 @@ class Olef < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/olef-dev/olef/releases/download/v3.11.2/olef-aarch64-apple-darwin.tar.gz"
-      sha256 "a40fd2047b30029030690449c9e2cd2ba2a981c1bfce7e6bd5e6af46d805ddee"
+      url "https://github.com/olef-dev/olef/releases/download/v3.12.0/olef-aarch64-apple-darwin.tar.gz"
+      sha256 "b9b09b071c1967933c522d2909c7e5b798a6b151e4652dba718117bfd58eabe1"
     else
-      url "https://github.com/olef-dev/olef/releases/download/v3.11.2/olef-x86_64-apple-darwin.tar.gz"
-      sha256 "164e5e08947a48c8c4ba8779f8a2cef410a15f093205ddba44ad185a0c35dc7e"
+      url "https://github.com/olef-dev/olef/releases/download/v3.12.0/olef-x86_64-apple-darwin.tar.gz"
+      sha256 "9fefff1106ffb311e74ee9d3222485acce28f3edff5792640f086343a427f7f6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/olef-dev/olef/releases/download/v3.11.2/olef-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "04187747f5686f170a5475a87e637d830a54d78353e687b4a65c0774d833c95a"
+      url "https://github.com/olef-dev/olef/releases/download/v3.12.0/olef-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "831832e151a9f8308299d58d2dcf706c4913f68e1b8989b26afe2a8c10edbae4"
     else
-      url "https://github.com/olef-dev/olef/releases/download/v3.11.2/olef-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fe560daf4018d1ba187c0828950af84f82d36dab4486e379d2ba672e301f27d5"
+      url "https://github.com/olef-dev/olef/releases/download/v3.12.0/olef-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c22799579b577049363c4a1ec95e143d0f8a92097f0cd6486bea4b2fe50559dd"
     end
   end
 
