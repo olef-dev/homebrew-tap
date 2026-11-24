@@ -7,21 +7,21 @@ class Ocloud < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.2/ocloud-aarch64-apple-darwin.tar.gz"
-      sha256 "067742bd3d92d36988033ea9402389a56ec21f85928863ed1a93d14d97e73405"
+      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.3/ocloud-aarch64-apple-darwin.tar.gz"
+      sha256 "cb9230019595ee6ea3a89af63d18a9fb6a2a871c6da2d90623e6ffcd5079f3e4"
     else
-      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.2/ocloud-x86_64-apple-darwin.tar.gz"
-      sha256 "149fe33383abca298f88ba98b66ef92b0695a3cafda6d4079e2c00d379ab478c"
+      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.3/ocloud-x86_64-apple-darwin.tar.gz"
+      sha256 "8f84d99dde9d068baadfcb3e3bbbb65b688e5f2da85a9aaba286c63f5fee413b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.2/ocloud-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cddf7e37ed28c9e482887eb5f252d6b4ebeebdf2c7eaf8b13ece5c027dff4a8c"
+      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.3/ocloud-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ee09ddc4b678f49016c407afac01b4847569063c8faabcbcdab6d503e9c834e0"
     else
-      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.2/ocloud-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6ac05773904f8467fe351937fc3d1224c1d5e08421fea7fc7c20e37829b04755"
+      url "https://github.com/olef-dev/ocloud/releases/download/v3.17.3/ocloud-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6eb58ad978a91ef78d403aa38d553eb680968b919d6a9901bf87c8206cee83aa"
     end
   end
 
